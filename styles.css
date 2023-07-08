@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.from{
+    border: 2px solid black;
+    padding: 6px;
+    background-image: url(https://fotomelia.com/wp-content/uploads/2018/12/fotomelia-27-1560x936.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transfrom 3s ease-in-out;
+}
+.from:hover{
+    transform: scale(1.3);
+}
+.aaa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
